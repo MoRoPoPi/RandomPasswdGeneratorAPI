@@ -19,3 +19,6 @@ api.add_resource(random, '/rdmpasswd/length=<int:length>')
     
 if __name__ == '__main__':
     app.run(debug=True, host="localhost", port=80)
+
+
+# this is a simple example of how to create a random Password 
